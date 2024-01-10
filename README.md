@@ -140,11 +140,11 @@ VALARC
    directory. The observed mean and 1 standard deviation is displayed via the error bar (outside 2 standard deviations 
    is highlighted in red). An example for Transports is shown below:
 
-![VALARC_example](coupled.png)
+![VALARC_example](transports.png)
 
 A repeat for the T/S metrics only is shown below:
 
-![VALARC_example](ovf_coupled.png)
+![VALARC_example](ts.png)
 
 <a name="authors"></a>
 ## Authors
