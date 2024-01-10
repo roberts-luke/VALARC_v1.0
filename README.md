@@ -16,17 +16,20 @@
 A software package for ocean scientists to calculate and plot the following evaluation metrics to compare Arctic Ocean biases between CMIP models
   with a NEMO ocean:
 
-   * Subpolar gyre strength (Sv)
-   * Subpolar gyre heat content (J) 
-   * AMOC at 26.5N at max. depth (Sv)
-   * OHT at 26.5N (PW)
-   * Mixed layer depth in Labrador Sea in March (m)
-   * Mean SSS anomaly in Labrador Sea (PSU)
-   * Mean SST anomaly off Newfoundland (degC)
-   * Mean overflow bottom temperature (degC) and salinity (PSU) below the 27.8 isopycnal at various locations. Currently, VALNA isolates 
-     and averages the Irminger and Icelandic basins at the osnap observational cross-section.
-   * GS separation latitude (degN)
-   * NA current latitude (degN)
+   * Bottom Water Temperature (degC)
+   * Freshwater content
+   * Beaufort Gyre Stream Function (Sv)
+   * Heat content (J)
+   * Mixed layer depth
+   * Sea surface salinity in EB and CB (PSU)
+   * Sea surface temperature in EB and CB (degC)
+   * Fram Strait transport (PW)
+   * Davis Strait transport (PW)
+   * Bering Strait tranport (PW)
+   * Barents Sea transport (PW)
+   * Temperature profile in EB and CB (degC)
+   * Salinity profile in EB and CB (PSU)
+
 
 <a name="getting_started"></a>
 ## Getting Started
@@ -79,7 +82,7 @@ Instead of annual averages, to select monthly averages, set `FREQ` to `1m`.
 For example:
 ```
 ./run_plot_VALARC.bash ORCA1_025_test 1y u-ai599 u-co779
-`
+```
 
 <a name="files"></a>
 ## File Structure
@@ -135,11 +138,11 @@ VALARC
    build it.
  * The single figure with all the metrics, and a map of the locations used for averaging, is outputted in the main 
    directory. The observed mean and 1 standard deviation is displayed via the error bar (outside 2 standard deviations 
-   is highlighted in red). An example is shown below:
+   is highlighted in red). An example for Transports is shown below:
 
 ![VALARC_example](coupled.png)
 
-A repeat for the overflow metrics only, at various locations, is shown below:
+A repeat for the T/S metrics only is shown below:
 
 ![VALARC_example](ovf_coupled.png)
 
