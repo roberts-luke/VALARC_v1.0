@@ -1,0 +1,22 @@
+ runid     |     name      |   line   |   color         |
+ u-ar435   | GO6-1deg      | -        | darkred         |
+ u-ah494   | GO6-1/4deg    | -        | navy            |
+ mi-aq915  | GO6-1/12deg   | -        | darkturquoise   |
+ u-ak108   | GC3.1 1deg    | -        | indianred       |
+ u-ai758   | GC3.1 1/4deg  | -        | cornflowerblue  |
+ u-aj393   | GC3.1 1/12deg | -        | teal            |
+ u-ak306   | HighResMIP-LL-control | --        | teal             |
+ u-aj368   | HighResMIP-MM-control | --        | orange            |
+ u-ak356   | HighResMIP-LL | -        | teal          |
+ u-ay652   | HighResMIP-HH | -        | purple     |
+ u-aj354   | HighResMIP-MM | -        | orange   |
+ u-ay490   | HighResMIP-HH-contol | --        | purple     |
+ u-ci423   | GC5           | -        | orange          |
+ u-ai599   | GC3.1 1/4deg  | -        | orange          |
+ u-cn049   | GC5 rc3       | -        | teal            | 
+ u-af872   | GC3.1 1/12deg | -        | teal            | 
+ u-cp830   | GC5 n96orca1  | -        | teal            | 
+ u-co779   | GC5 n216orca025| -       | navy            | 
+ u-cq098   | GC5 n216orca12| -        | red             | 
+ u-ar766   | HadGEM3 3.1 LL | -        | teal            | 
+ u-aq281   | HadGEM3 3.1 MM | -        | orange            |

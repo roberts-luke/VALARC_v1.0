@@ -1,0 +1,5 @@
+ref = Fram Strait heat transport (PW)
+mean = 0.036
+std = 0.006
+# Docquier, D., Koenigk, T., Fuentes-Franco, R. et al. Impact of ocean heat transport on the Arctic sea-ice decline: a model study with EC-Earth3. Clim Dyn 56, 1407–1432 (2021). https://doi.org/10.1007/s00382-020-05540-8
+# 
