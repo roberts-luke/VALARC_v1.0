@@ -4,11 +4,10 @@
 1. [Introduction](#introduction)
 2. [Getting Started](#getting_started)
 3. [How to run](#howtorun)
-4. [File Structure](#files)
-5. [Output](#output)
-6. [Authors](#authors)
-7. [Licence](#licence)
-8. [Acknowledgements](#acknowledgement)
+4. [Output](#output)
+5. [Authors](#authors)
+6. [Licence](#licence)
+7. [Acknowledgements](#acknowledgement)
 
 <a name="introduction"></a>
 ## Introduction
@@ -81,55 +80,8 @@ Instead of annual averages, to select monthly averages, set `FREQ` to `1m`.
 ```
 For example:
 ```
-./run_plot_VALARC.bash ORCA1_025_test 1y u-ai599 u-co779
+./run_plot_VALARC.bash ORCA1 1y u-ai599 u-co779
 ```
-
-<a name="files"></a>
-## File Structure
-
-~~~~~~~
-VALARC
-      |-- CDFTOOLS_4.0
-            |--
-      |-- FIGURES
-            |--
-      |-- FILTERS
-            |-- 
-      |-- OBS
-            |-- 
-      |-- SCRIPT
-            |-- SUPPLEM_PLOTS
-                  |-- obs_data_cal_mean_std.ipynb
-                  |-- plot_GS_sep_NAC_SST_SSS_maps.ipynb
-                  |-- plot_overflow_Xsection.ipynb
-                  |-- plot_valna_ovf_maps.ipynb            
-            |-- cal_GS_sep_NAC_lat.py
-            |-- cal_ovf_metric.py
-            |-- common.bash
-            |-- get_data.bash
-            |-- mk_gsl_nac.bash
-            |-- mk_htc.bash
-            |-- mk_mht.bash
-            |-- mk_moc.bash
-            |-- mk_mxl.bash
-            |-- mk_ovf.bash
-            |-- mk_psi.bash
-            |-- mk_sss.bash
-            |-- mk_sst.bash
-            |-- plot_time_series.py
-      |-- ORIG_STYLE_FILES
-            |-- 
-      |-- LICENSEvim
-      |-- param.bash
-      |-- README.md
-      |-- requirements.txt
-      |-- run_all.bash
-      |-- run_plot_ovf_only_VALNA.bash
-      |-- run_plot_VALNA.bash
-      |-- style.db
-      |-- style_6_initial.db
-      |-- valna.yml
-~~~~~~~
 
 
 <a name="output"></a>

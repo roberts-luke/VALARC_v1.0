@@ -37,8 +37,8 @@ if [[ $RUNVALARC == 1 ]]; then
   runSST_EB=0           # Sea surface salinity in EB
   runSST_CB=0           # Sea surface salinity in CB
   runFRM=1              # Fram Strait transport 
-  runDVS=0              # Davis Strait transport
-  runBRG=0              # Bering Strait tranport
+  runDVS=1              # Davis Strait transport
+  runBRG=1              # Bering Strait tranport
   runBRT=1              # Barents Sea transport          
   runTPROFILE_EB=0      # Temperature profile in Eurasian Basin
   runSPROFILE_EB=0      # Salinity profile in Eurasian Basin
